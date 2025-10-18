@@ -45,13 +45,14 @@ Author
 Oyeniyi Adenike Rejoice
 📧 oyeniyi229@gmail.com
 
-💼 LinkedIn
+💼 [LinkedIn](https://www.linkedin.com/in/oyeniyi-adenike-9bb403276)
+
 
 
 **Submission Info**
 
   This project was built as part of the Frontend Wizards — Stage 0: Profile Card Task
   🗓️ Deadline: 19th October, 2025
-Open the project in your code editor
+
 
 code .
