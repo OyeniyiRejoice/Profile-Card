@@ -40,7 +40,7 @@ profile-card/
 
 
     
-Author
+## Author
 
 Oyeniyi Adenike Rejoice
 📧 oyeniyi229@gmail.com
@@ -49,7 +49,7 @@ Oyeniyi Adenike Rejoice
 
 
 
-**Submission Info**
+## Submission Info
 
   This project was built as part of the Frontend Wizards — Stage 0: Profile Card Task
   🗓️ Deadline: 19th October, 2025
