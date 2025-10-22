@@ -1,61 +1,107 @@
-# Profile Card — Frontend Wizards Stage 0
+# Profile Card — Frontend Wizards Stage 1
 
-This is my submission for the **Frontend Wizards Stage 0 task** — a testable, semantic, and responsive profile card built using **HTML, CSS, and vanilla JavaScript**.
+This is my submission for the **Frontend Wizards Stage 1 Task**, continuing from Stage 0.  
+It includes a **semantic, accessible, and responsive multi-page web app** built with **HTML, CSS, and vanilla JavaScript**.
 
-# Features
-- Semantic HTML5 structure (`article`, `figure`, `nav`, `section`)
-- Responsive layout using Flexbox
-- Accessible keyboard navigation and visible focus styles
-- Auto-updating time display using `Date.now()`
-- All elements include the required `data-testid` attributes
+---
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/OyeniyiRejoice/profile-card.git
+##  Features
 
-2. **Navigate into the project directory**
-   cd profile-card
+###  General
+- Semantic HTML5 elements (`main`, `article`, `figure`, `section`, `nav`)
+- Fully responsive layout using Flexbox and media queries
+- Accessible structure with labels, `aria` attributes, and focus styles
+- Consistent design system and clean CSS
+- Hosted on **GitHub Pages**
 
-3. **open project in your code editor**
-   code .
+---
 
-4. **Open index.html in your browser**
+###  Home Page (Profile Card)
+- Personal profile with image, bio, hobbies, and dislikes  
+- Auto-updating time using JavaScript  
+- Social links (Twitter, LinkedIn, GitHub) with focus states  
+- Profile image styled with circular border and shadow
 
-      Double-click the file
-             or
-Run with the Live Server extension in VS Code.
+---
 
+###  About Me Page
+- Reflective sections with proper data-testids:
+  - Bio — `test-about-bio`
+  - Goals — `test-about-goals`
+  - Confidence areas — `test-about-confidence`
+  - Note to future self — `test-about-future-note`
+  - Extra thoughts — `test-about-extra`
+- Semantic structure with `<main>` and `<section>` elements
 
-📂 Folder Structure
+---
 
-profile-card/
+###  Contact Us Page
+- Contact form with the following inputs:
+  - Full Name — `test-contact-name`
+  - Email — `test-contact-email`
+  - Subject — `test-contact-subject`
+  - Message — `test-contact-message`
+- Client-side form validation:
+  - All fields required
+  - Valid email format
+  - Message minimum 10 characters
+- Error and success messages handled dynamically  
+- Accessible via keyboard (labels, `aria-describedby`, focus states)
+
+---
+
+##  Folder Structure
+
+Profile-Card/
 │
 ├── img/
-│   └── IMG-20250127-WA0003.jpg
+│ └── IMG-20250127-WA0003.jpg
 │
+├── about.html
+├── contact.html
+├── contact.js
 ├── index.html
-├── style.css
 ├── script.js
+├── style.css
 └── README.md
 
 
-    
-## Author
+---
+
+## How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/OyeniyiRejoice/Profile-Card.git
+
+2. Navigate into the project
+   cd Profile-Card
+
+
+3. Open in your editor
+   code .
+
+4.  Run in your browser
+
+Open index.html manually, or
+
+Use Live Server in VS Code.
+
+Live Demo
+
+🔗 GitHub Pages: https://oyeniyirejoice.github.io/Profile-Card/
+
+💻 Repository: https://github.com/OyeniyiRejoice/Profile-Card
+
+
+Author
 
 Oyeniyi Adenike Rejoice
-📧 oyeniyi229@gmail.com
+ oyeniyi229@gmail.com
 
-💼 [LinkedIn](https://www.linkedin.com/in/oyeniyi-adenike-9bb403276)
+ LinkedIn[https://www.linkedin.com/in/oyeniyi-adenike-9bb403276/]
 
+ Submission Info
 
-
-## Submission Info
-
-  This project was built as part of the Frontend Wizards — Stage 0: Profile Card Task
-  🗓️ Deadline: 19th October, 2025
-
-
-  
-
-
-code .
+Built as part of Frontend Wizards — Stage 1 Task
+ Deadline: 22 October 2025 | 11:59 pm WAT
